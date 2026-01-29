@@ -23,7 +23,7 @@ A Claude Code skill for generating and editing images using the Gemini CLI's nan
 ### 1. Install the Gemini CLI
 
 ```bash
-npm install -g @anthropic-ai/gemini-cli
+npm install -g @google/gemini-cli
 ```
 
 ### 2. Set your API key
