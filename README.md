@@ -29,7 +29,7 @@ npm install -g @google/gemini-cli
 ### 2. Set your API key
 
 ```bash
-export GEMINI_API_KEY="your-api-key"
+export NANOBANANA_GEMINI_API_KEY="your-api-key"
 ```
 
 ### 3. Install the nanobanana extension
@@ -80,11 +80,10 @@ Once installed, Claude Code will automatically use this skill when you ask for i
 
 | Option | Description |
 |--------|-------------|
-| `--yolo` | Auto-approve tool actions (no prompts) |
 | `--count=N` | Generate N variations (1-8) |
 | `--preview` | Auto-open generated images |
 | `--styles="style1,style2"` | Apply artistic styles |
-| `--format=grid\|separate` | Output arrangement |
+| `--seed=N` | Seed for reproducible results |
 
 ## Output
 
