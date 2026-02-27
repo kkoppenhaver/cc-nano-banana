@@ -81,7 +81,7 @@ Do NOT attempt to generate images through any other method.
 
 ## Model Selection
 
-Default: `gemini-2.5-flash-image` (~$0.04/image)
+Default: `gemini-3.1-flash-image-preview` (~$0.04/image)
 
 For higher quality (4K, better reasoning):
 ```bash

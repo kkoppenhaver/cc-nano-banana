@@ -91,7 +91,7 @@ Generated images are saved to `./nanobanana-output/` in your current working dir
 
 ## Model Selection
 
-Default model: `gemini-2.5-flash-image` (~$0.04/image)
+Default model: `gemini-3.1-flash-image-preview` (~$0.04/image)
 
 For higher quality output:
 
