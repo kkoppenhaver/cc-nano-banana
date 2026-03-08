@@ -40,6 +40,21 @@ gemini extensions install https://github.com/gemini-cli-extensions/nanobanana
 
 ### 4. Install this skill
 
+Install via the [skills](https://github.com/vercel-labs/skills) package manager (recommended):
+
+```bash
+bunx skills add kkoppenhaver/cc-nano-banana -a claude-code
+```
+
+Or with npx:
+
+```bash
+npx skills add kkoppenhaver/cc-nano-banana -a claude-code
+```
+
+<details>
+<summary>Manual installation</summary>
+
 Copy the `SKILL.md` file to your Claude Code skills directory:
 
 ```bash
@@ -52,6 +67,8 @@ Or clone this repository directly:
 ```bash
 git clone https://github.com/kkoppenhaver/cc-nano-banana ~/.claude/skills/nano-banana
 ```
+
+</details>
 
 ## Usage
 
